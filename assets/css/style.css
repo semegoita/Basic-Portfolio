@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color: #ffffff;
+
+}
+nav{
+
+}
+a{
+    display: inline;
+    text-decoration: none;
+
+}
+
+h1{
+    color: snow;
+    background-color:#63a7a4;
+}
+.wrapper{
+    width: 100%;
+    background-image: url("concrete.png")
+}
+.main-content{
+    width: 650px;
+    background-color:#ffffff;
+}
+#my-image {
+    height: 100px;
+    float: left;
+}
+.aside{
+    background-color: #ffffff;
+    width: 270;
+}
+.github {
+
+}
+.linkedin{
+
+}
+.stack{
+}
+
+.description{
+    clear: both;
+    overflow: auto;
+    text-align: justify;
+}
+
+

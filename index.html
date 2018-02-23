@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
     <header>
-        <nav> 
+        <nav>
             <ul>
-                <li><a href="index.html">About</a> </li>
-                <li> <a href="portfolio.html">Portfolio </a></li>
-                <li> <a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio </a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
             </ul>
         </nav>
-        <p> Semere Gebremedhin</p>
+        <h1>Semere Gebremedhin</h1>
     </header>
 
     <div class="wrapper">
-        <header>
-            <h1>About Me</h1>
-         </header>    
-         <p>
-                <img src="/asset/images/seme.jpg" alt="Semere's picture">My name is Semere Gebremedhin. 
-                I am an aspiring fullstack web developer currently training my self at
-                Berkley coding bootcamp. I live in Oakland, California but I am originally
-                from Ethiopia. I speak 3 different languages including English. I love 
-                nature and enjoy everyday outside of my house as much as I can. 
-            </p>
-        <p>
-            
+        <div class="main-content">
+            <header>
+                <h2>About Me</h2>
+        
+            </header>
+            <p>
+                <img id="my-image" src="assets/images/seme.jpg" height="200px" alt="Semere's picture">
 
-        </p>
+            </p>
+            <p class="description"> My name is Semere Gebremedhin. I am an aspiring fullstack web developer currently training my self at Berkley
+                coding bootcamp. I live in Oakland, California but I am originally from Ethiopia. I speak 3 different languages
+                including English. from my child hood I grew up playing soccer and basketball. I love soccer and I am a big
+                fun of Arsenal foot ball club which is a london based soccer team. I love nature and enjoy everyday outside
+                of my house as much as I can.
+            </p>
+
+
+        </div>
+        <div class="aside">
+            <P>Connect with Me</P>
+            <br> 
+            <a href="https://github.com/semegoita" target="_blank"> <img width="20px" height="20px" class="github" src="assets/images/github.png" alt="github-logo"></a>
+           <a href="https://www.linkedin.com/feed/?trk=hb_signin" target="_blank"> <img width="20px" height="20px" class="linkedin" src="assets/images/linkedin.png" alt="linkedin-logo"></a>
+            <a href="https://stackoverflow.com/users/9219258/semegoita" target="_blank"> <img width="20px" height="20px" class="stack" src="assets/images/stackoverflow.png" alt="stackoverflow-logo">
+           
+
+        </div>
     </div>
+    <footer>
+        <p>Copyright 2018 Semere Gebremedhin</p>
+    </footer>
 </body>
+
 </html>
