@@ -1,42 +1,88 @@
 body{
-    margin: 0px;
-    padding: 0;
+    margin: 0px auto;
+    width: 960px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 header{
+    margin: 10px;
+    padding: 0;
     background-color: #ffffff;
 
 }
-nav{
-
+nav ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    
 }
-a{
+nav li {
+    background-color: #ffffff;
     display: inline;
+}
+nav a{
     text-decoration: none;
 
 }
 
 h1{
+    padding: 20px;
+    margin: 0;
+    font-size: 25px;
     color: snow;
     background-color:#63a7a4;
-}
-.wrapper{
-    width: 100%;
-    background-image: url("concrete.png")
-}
-.main-content{
-    width: 650px;
-    background-color:#ffffff;
-}
-#my-image {
-    height: 100px;
+    width: 300px;
     float: left;
 }
+.wrapper{
+    clear: both;
+    overflow: auto;
+    background-color: pink;
+}
+.main-content{
+    float: left;
+    width: 650px;
+    background-color:blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #dddddd;
+}
+.inside-content{
+    border-top: 1px solid slategray;
+    padding: 20px;
+}
+#my-image {
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+.description, .para2 {
+    line-height: 150%;
+    text-align: justify;
+}
 .aside{
-    background-color: #ffffff;
-    width: 270;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;;
+    background-color:red;
+    width: 270px;
+}
+.connect {
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font: bold;
+}
+.icons{
+    border-top: 2px solid black;
+
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 180px;
+
 }
 .github {
 
@@ -47,10 +93,18 @@ h1{
 .stack{
 }
 
-.description{
+.footer{
+    margin-bottom: 0;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
     clear: both;
     overflow: auto;
-    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #666666;
+    text-align: center;
+
 }
 
 
