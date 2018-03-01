@@ -7,7 +7,7 @@ html{
     position: relative;
     min-height: 100%;
     margin:20px auto;
-    width: 1000px;
+    width: 960px;
     border: 1px transparent #dddddd;
 }
 body{
@@ -61,7 +61,7 @@ nav a:hover{
     float: left;
     width: 650px;
     background-color: #ffffff;
-    margin-left: 40px;
+    margin-left: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
     border: 1px solid #dddddd;
@@ -118,7 +118,7 @@ h2{
 .footer{
     position: absolute;
     height: 40px;
-    width: 960px;
+    width: 920px;
     left: 0;
     bottom: 0;
     border-top: 5px solid #63a7a4;
@@ -167,7 +167,7 @@ h3{
 
 }
 .form{
-    padding: 20px;
+    padding: 30px;
 }
 
 .row{
