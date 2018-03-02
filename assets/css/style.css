@@ -95,18 +95,19 @@ h2{
     width: 270px;
 }
 .line-i{
-   margin-left: 20px;
-   margin-right:90px;
+   margin-left: 50px;
+   margin-right:70px;
 }
 .connect {
     color: #63a7a4;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-bottom: 0;
     font-size: 20px;
     line-height: 200%;
+    font-weight: bold;
 }
 .icons{
-    margin-left: 10px;
+    margin-left: 30px;
     margin-bottom: 10px;
     padding: 15px;
     width: 180px;
